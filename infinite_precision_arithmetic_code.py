@@ -128,8 +128,8 @@ def example_usage():
     d_values_frac = [Fraction(1, 4), Fraction(1, 2), Fraction(3, 4), Fraction(1, 1)]
     
     # Dados a serem codificados (terminando com o símbolo 0)
-    data = [1, 2, 1, 0]
-    
+    #data = [1, 2, 1, 0]
+    data = [1, 3, 2, 1, 3, 2, 1, 1, 3, 2, 0]
     # Criar o codificador/decodificador
     codec = CompressionAlgorithm(precision="infinite")
     
